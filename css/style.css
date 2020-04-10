@@ -16,6 +16,12 @@ header{
     max-width: 1173px;
     margin: auto;
 }
+header .max-w div{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
 header nav ul{
     list-style: none;
 }
@@ -38,18 +44,7 @@ header nav ul li a{
     text-decoration: none;
     display: inline-block;
 }
-header .logo{
-    float: left;
-}
-header nav{
-    float: right;
-}
 
-.max-w:after{
-    clear: both;
-    content: "";
-    display: block;
-}
 /*HEADER*/
 /*Section design_and_develop*/
 
@@ -60,12 +55,10 @@ header nav{
 }
 .design_content{
     max-width: 480px;
-    float: right;
 }
-.max-w:after{
-    content: "";
-    display: block;
-    clear: both;
+ .design_and_develop .max-w{
+   display: flex;
+     justify-content: flex-end;
 }
 h1{
     font-size: 38px;
@@ -174,33 +167,35 @@ h2{
 }
 /*Section scills*/
 /*Section information*/
+.project, .hours, .feedbacks, .clients{
+    display: flex;
+    align-items: center;
+}
+.project {
+    margin-right: 111px;
+}
+
 .information{
     background-color: #10c9c3;
     padding: 100px 0;
 }
-.project, .hours, .feedbacks, .clients{
-    float: left;
-}
-.max-w:after{
-    content: "";
-    display: block;
-    clear: both;
+.information .max-w {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .number, .info{
     color: white;
 }
 .number{
     font-size: 18px;
-display: inline-block;
-    line-height: 30px;
+    display: inline-block;
 }
 .info{
     font-size: 12px;
     text-transform: uppercase;
     display: block;
-}
-.project{
-    margin-right: 111px;
+    line-height: 20px;
 }
 .hours{
     margin-right: 151px;
@@ -217,6 +212,7 @@ display: inline-block;
     font-size: 35px;
     color: white;
     margin-right: 25px;
+
 }
 .clients:before, .feedbacks:before, .hours:before{
     font-family: 'Font Awesome 5 Free';
@@ -238,7 +234,44 @@ display: inline-block;
     font-size: 36px;
 }
 /*Section information*/
+/*Section grid*/
+.grid-top, .grid-bottom {
+    display: flex;
+    flex-wrap: wrap;
 
+}
+.color{
+    display: block;
+    height: 300px;
+width: 25%;
+    background-color: #dddddd;
+}
+.color1{
+    display: block;
+    height: 300px;
+width: 25%;
+    background-color: #838383;
+}
+.color:hover, .color1:hover{
+    display: block;
+    content:"";
+    background-image: url("../images/eye_03.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #252525;
+}
+.load_work{
+    background-color: #f5f5f5;
+    padding: 46px 0;
+    text-align: center;
+}
+.load_work p{
+    text-transform: uppercase;
+   font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+/*Section grid*/
 /*Section work_process*/
 .work_process{
     background-color: white;
@@ -260,35 +293,20 @@ display: inline-block;
     background-color: #f5f5f5;
     padding: 102px 0;
 }
+.top, .bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 .item-info .caption{
     margin-bottom: 20px;
 }
 .design, .web, .mobile, .game, .marketing, .photography, .graphic, .illustrations{
     width: 230px;
-text-align: center;
-    float: left;
-}
-.design, .marketing{
-    margin-right: 71px ;
-}
-.web, .photography{
-    margin-right: 76px;
-}
-.mobile, .graphic{
-    margin-right: 82px;
+    text-align: center;
 }
 .top{
     margin-bottom: 60px;
-}
-.top:after{
-    content: "";
-    display: block;
-    clear: both;
-}
-.bottom:after{
-    content: "";
-    display: block;
-    clear: both;
 }
 .design .caption:before{
     content: url("../images/diamante_03.png");
@@ -362,13 +380,9 @@ text-align: center;
 .logo_company{
     padding: 65px 0;
 }
-.a{
-    float: left;
-}
-.max-w:after{
-    content: "";
-    display: block;
-    clear: both;
+.logo_company .max-w{
+    display: flex;
+    justify-content: space-between;
 }
 .logo_company a{
     display: inline-block;
@@ -448,13 +462,12 @@ footer{
 }
 .pirol_design{
     max-width: 225px;
-    float: left;
     margin-right: 246px;
 }
 footer .max-w{
-    content: "";
-    display: block;
-    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 h4{
     font-family: 'Montserrat', sans-serif;
@@ -471,7 +484,6 @@ footer p{
 }
 .contact{
     max-width: 155px;
-    float: left;
     margin-right: 146px;
 }
 .contact a, footer ul li a{
@@ -484,15 +496,10 @@ footer p{
 }
 .list{
     margin-right: 59px;
-    float: left;
 }
 footer ul {
     list-style-type: none;
 }
 .list2{
     margin-right: 132px;
-    float: left;
-}
-.list3{
-    float: left;
 }
