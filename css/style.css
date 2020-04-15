@@ -116,8 +116,24 @@ h2{
 /*Section about_us*/
 /*Section scills*/
 .scills{
+    padding: 165px 0;
     background-color: #f8f9f9;
-    padding: 165px 0 ;
+    height: 100%;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+.scills:after{
+    content: " ";
+    display: block;
+    width: 50%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    position: absolute;
+    background-color: #e9e9e9;
 }
 .progress_bar{
     max-width: 500px;

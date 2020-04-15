@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2af96848-9acc-440e-b04c-8fabed5d0c1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +60,8 @@
       <workItem from="1586516393994" duration="557000" />
       <workItem from="1586517005082" duration="8124000" />
       <workItem from="1586525750577" duration="16000" />
+      <workItem from="1586939455736" duration="2486000" />
+      <workItem from="1586941982375" duration="9000" />
     </task>
     <servers />
   </component>
@@ -73,9 +73,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586365015379" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1586525750418">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1586941982037">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586525750418" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586941982037" />
   </component>
 </project>
