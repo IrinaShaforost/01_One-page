@@ -1,0 +1,139 @@
+
+@media only screen and (max-width: 1024px) {
+   .max-w{
+        padding: 0 15px;
+    }
+    .design_and_develop{
+        padding: 130px 0 150px 0;
+    }
+    .information, .work_process, .about_us, .item-info, .form_block{
+        padding: 50px 0;
+    }
+    .scills{
+        padding: 115px 0;
+    }
+    .phrase{
+        padding: 130px 0;
+    }
+    .pirol_design, .contact, .list, .list2{
+       margin-right: 0;
+        justify-content: center;
+    }
+    .information .max-w{
+        justify-content: space-between;
+    }
+    .project, .hours, .feedbacks{
+        margin-right: 0;
+    }
+}
+@media only screen and (max-width: 992px) {
+
+}
+@media only screen and (max-width: 768px) {
+
+    .design, .web, .mobile, .game, .marketing, .photography, .graphic, .illustrations{
+        width: 50%;
+    }
+.color, .color1{
+    width: 50%;
+}
+    .phrase_discription{
+        font-size: 22px;
+    }
+    .project, .hours, .feedbacks, .clients{
+        width: 50%;
+        justify-content: center;
+    }
+    .feedbacks, .clients{
+        position: relative;
+        right: 5px;
+        margin-top: 30px;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .design_and_develop{
+        padding: 50px 0 70px 0;
+    }
+    .information, .work_process, .about_us, .item-info, .form_block, .logo_company{
+        padding: 20px 0;
+    }
+    .scills{
+        padding: 50px 0;
+    }
+    .color, .color1{
+        width: 100%;
+    }
+    .phrase{
+        padding: 130px 0;
+    }
+    .design, .web, .mobile, .game, .marketing, .photography, .graphic, .illustrations{
+        width: 100%;
+    }
+    .project, .hours, .feedbacks, .clients{
+        width: 100%;
+        justify-content: center;
+    }
+    .hours, .feedbacks, .clients{
+        margin-top: 20px;
+    }
+    .hours{
+        position: relative;
+        right: 10px;
+    }
+    .feedbacks{
+        left: 1px;
+    }
+    .clients{
+        position: relative;
+        right: 10px;
+    }
+    .load_work{
+        padding: 15px 0;
+    }
+    .work_process p {
+        margin-bottom: 30px;
+    }
+    .player{
+        height: 300px;
+    }
+    .play i{
+        width: 55px;
+        height: 55px;
+        line-height: 55px;
+    }
+    .phrase {
+        padding: 50px 0;
+    }
+    .handmade, .montain, .collection, .montainbike, .mr-0{
+        width: 100%;
+        text-align: center;
+    }
+    .handmade, .montain, .collection, .montainbike{
+        margin-bottom: 15px;
+    }
+    .name{
+        margin-bottom: 30px;
+    }
+    .name, .email{
+        width: 100%;
+    }
+    footer{
+        padding: 50px 0;
+    }
+
+}
+@media only screen and (max-width: 375px) {
+
+
+}
+@media only screen and (max-width: 360px) {
+}
+@media only screen and (max-width: 420px) {
+}
+
+
+
+
+
+
+
