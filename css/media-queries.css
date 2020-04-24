@@ -120,8 +120,11 @@
     footer{
         padding: 50px 0;
     }
-
+.pirol_design, .co  {
+    max-width: 100%;
+    text-align: center;
 }
+.contact
 @media only screen and (max-width: 375px) {
 
 

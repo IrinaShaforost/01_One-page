@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'Now';
+    src: url('../fonts/Now-Bold.eot');
+    src: url('../fonts/Now-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Now-Bold.woff2') format('woff2'),
+    url('../fonts/Now-Bold.woff') format('woff'),
+    url('../fonts/Now-Bold.ttf') format('truetype'),
+    url('../fonts/Now-Bold.svg#Now-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Now';
+    src: url('../fonts/Now-Medium.eot');
+    src: url('../fonts/Now-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Now-Medium.woff2') format('woff2'),
+    url('../fonts/Now-Medium.woff') format('woff'),
+    url('../fonts/Now-Medium.ttf') format('truetype'),
+    url('../fonts/Now-Medium.svg#Now-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -395,7 +419,7 @@ width: 25%;
 /*Section phrase*/
 .phrase{
     background-color: #10c9c3;
-    padding: 179px 0;
+    padding: 179px 0 60px;
 }
 .phrase .item-presare{
     max-width: 807px;
@@ -416,7 +440,9 @@ width: 25%;
     color: white;
     font-size: 12px;
     text-transform: uppercase;
+    margin-bottom: 108px;
 }
+
 /*Section phrase*/
 /*Section logo_company*/
 /*Section logo_company*/
@@ -547,4 +573,136 @@ footer ul {
 }
 .list2{
     margin-right: 132px;
+}
+.owl-dots .owl-dot span{
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+    background-color: #b0e8e6;
+    display: inline-block;
+    margin: 0 9px;
+}
+.owl-dots{
+    text-align: center;
+
+}
+.owl-dots .owl-dot.active span{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.owl-carousel button.owl-dot{
+    outline: none;
+}
+.ui-widget-header{
+    background-color: black;
+    font-family: 'Now';
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+}
+.ui-dialog .ui-dialog-titlebar{
+    padding: 40px 0;
+}
+.ui-dialog{
+    width: 100% !important;
+    max-width: 750px !important;
+    padding: 0;
+}
+.ui-widget-content{
+    background-color: #fbfbfb !important;
+}
+.ui-dialog .ui-dialog-content{
+    padding: 40px 0 165px ;
+}
+.ui-dialog .ui-dialog-content{
+    border: none;
+}
+.ui-dialog-titlebar-close{
+    display: none;
+}
+.your_email{
+    display: flex;
+    justify-content: space-between;
+    max-width: 573px;
+    margin: auto;
+}
+.your_email label, .form_dialog p{
+    font-family: 'Now';
+    font-weight: 500;
+    font-size: 22px;
+    width: 100%;
+    color: #363636;
+}
+.item-email{
+    max-width: 140px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.item-your_email{
+    width: 383px;
+}
+.your_email input{
+    height: 58px;
+    border: 1px #b7b7b7 solid;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+}
+.reset_password, .item-login{
+    max-width: 527px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+.form_dialog button{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 22px 0;
+    width: 100%;
+    background-color: #d2d2d2;
+    font-size: 24px;
+    font-family: 'Now';
+    font-weight: bold;
+    border-radius: 5px;
+}
+.form_dialog p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form_dialog a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    width: 100%;
+    font-size: 24px;
+    font-family: 'Now';
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+}
+.item-login i{
+    margin-right: 17px;
+}
+.item-login{
+    text-align: center;
+    background-color: #557bcd;
+    padding: 20px 0px;
+}
+.ui-widget.ui-widget-content, .ui-widget-header, .ui-widget-content{
+    border: none;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl {
+    border-top-left-radius: 0;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    border-bottom-right-radius: 0;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl {
+    border-bottom-left-radius: 0;
+}
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    border-top-right-radius: 0;
 }

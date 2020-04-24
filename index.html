@@ -7,11 +7,30 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fontawesome-free-5.0.8/web-fonts-with-css/css/fontawesome-all.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media-queries.css">
 </head>
 <body>
+<div id="dialog" title="FORGOT YOUR PASSWORD?">
+      <form name="form" method="post" action="" class="form_dialog">
+          <div class="your_email">
+              <div class="item-email"><label>NTER YOUR EMAIL</label></div>
+              <div class="item-your_email"><input id="email" name="your_email" type="text"></div>
+          </div>
+          <div class="reset_password">
+              <button type="submit" name="button">RESET PASSWORD</button>
+          </div>
+          <p>OR</p>
+          <div class="item-login">
+<a href="#"><i class="fab fa-facebook-f"></i>Log In Using Facebook</a>
+          </div>
+      </form>
+</div>
 <header>
     <div class="max-w">
         <div class="header_body">
@@ -53,7 +72,7 @@
     <p>We are a new design studio based in USA. We have over
         20 years of combined experience, and know a thing or two
         about designing websites and mobile apps.</p>
-    <a href="#">contact us</a>
+    <a href="#" id="opener">contact us</a>
 </div>
     </div>
 </section>
@@ -184,11 +203,25 @@
 </section>
 <section class="phrase">
     <div class="max-w">
-    <div class="item-presare">
-    <p class="phrase_discription">“ Outstanding job and exceeded all expectations. It was a pleasure
-        to work with them on a sizable first project and am looking
-        forward to start the next one asap.”</p>
-        <p class="author">Michael Hopkins</p>
+    <div class="owl-carousel">
+        <div class="item-presare">
+            <p class="phrase_discription">“ Outstanding job and exceeded all expectations. It was a pleasure
+                to work with them on a sizable first project and am looking
+                forward to start the next one asap.”</p>
+            <p class="author">Michael Hopkins</p>
+        </div>
+        <div class="item-presare">
+            <p class="phrase_discription">“ Outstanding job and exceeded all expectations. It was a pleasure
+                to work with them on a sizable first project and am looking
+                forward to start the next one asap.”</p>
+            <p class="author">Michael Hopkins</p>
+        </div>
+        <div class="item-presare">
+            <p class="phrase_discription">“ Outstanding job and exceeded all expectations. It was a pleasure
+                to work with them on a sizable first project and am looking
+                forward to start the next one asap.”</p>
+            <p class="author">Michael Hopkins</p>
+        </div>
     </div>
     </div>
 </section>
@@ -278,6 +311,9 @@
     </div>
 </div>
 </footer>
-
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
