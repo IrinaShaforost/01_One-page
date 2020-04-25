@@ -603,6 +603,9 @@ footer ul {
     color: white;
     text-align: center;
 }
+.ui-dialog .ui-dialog-title{
+    width: 100%;
+}
 .ui-dialog .ui-dialog-titlebar{
     padding: 40px 0;
 }
@@ -616,9 +619,7 @@ footer ul {
 }
 .ui-dialog .ui-dialog-content{
     padding: 40px 0 165px ;
-}
-.ui-dialog .ui-dialog-content{
-    border: none;
+    border-radius: 10px;
 }
 .ui-dialog-titlebar-close{
     display: none;
@@ -628,6 +629,7 @@ footer ul {
     justify-content: space-between;
     max-width: 573px;
     margin: auto;
+    margin-bottom: 40px;
 }
 .your_email label, .form_dialog p{
     font-family: 'Now';
@@ -637,9 +639,7 @@ footer ul {
     color: #363636;
 }
 .item-email{
-    max-width: 140px;
     text-align: center;
-    margin-bottom: 40px;
 }
 .item-your_email{
     width: 383px;
@@ -651,10 +651,11 @@ footer ul {
     outline: none;
     border-radius: 5px;
 }
-.reset_password, .item-login{
+.reset_password{
     max-width: 527px;
     margin: auto;
     margin-bottom: 30px;
+    text-align: center;
 }
 .form_dialog button{
     text-decoration: none;
@@ -662,11 +663,12 @@ footer ul {
     color: black;
     padding: 22px 0;
     width: 100%;
-    background-color: #d2d2d2;
+    background: linear-gradient(to right, #d5d5d5, #bababa);
     font-size: 24px;
     font-family: 'Now';
     font-weight: bold;
     border-radius: 5px;
+    margin-bottom: 30px;
 }
 .form_dialog p{
     text-align: center;
@@ -682,14 +684,14 @@ footer ul {
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
+
+}
+.item-login{
+    background-color: #557bcd;
+    padding: 20px 0px;
 }
 .item-login i{
     margin-right: 17px;
-}
-.item-login{
-    text-align: center;
-    background-color: #557bcd;
-    padding: 20px 0px;
 }
 .ui-widget.ui-widget-content, .ui-widget-header, .ui-widget-content{
     border: none;

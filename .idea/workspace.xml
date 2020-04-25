@@ -21,6 +21,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -39,8 +40,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../burger_menu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\Desktop\lemon school\01_One page\js" />
+      <recent name="C:\Users\Asus\Desktop\lemon school\01_One page\css" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -68,20 +75,55 @@
       <workItem from="1587042543979" duration="13355000" />
       <workItem from="1587113024835" duration="14542000" />
       <workItem from="1587131300695" duration="65000" />
+      <workItem from="1587196688054" duration="4676000" />
+      <workItem from="1587288209455" duration="20000" />
+      <workItem from="1587383807792" duration="818000" />
+      <workItem from="1587567089253" duration="242000" />
+      <workItem from="1587572549757" duration="18000" />
+      <workItem from="1587572970778" duration="2131000" />
+      <workItem from="1587633892548" duration="191000" />
+      <workItem from="1587634100839" duration="5553000" />
+      <workItem from="1587676618510" duration="904000" />
+      <workItem from="1587717210368" duration="15935000" />
+      <workItem from="1587803847915" duration="587000" />
+      <workItem from="1587806226577" duration="659000" />
+      <workItem from="1587816848287" duration="2085000" />
     </task>
+    <task id="LOCAL-00001" summary="widget_dialog">
+      <created>1587740034763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587740034763</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="widget_dialog" />
+    <option name="LAST_COMMIT_MESSAGE" value="widget_dialog" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1587118610442">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1587818939510">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587118610442" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1587131300728">
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1587818939510" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1587804434003">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587131300728" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1587804434003" />
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2" timestamp="1587740039011">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1587740039011" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1587803848089">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587803848089" />
   </component>
 </project>
